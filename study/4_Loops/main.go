@@ -6,7 +6,7 @@ func main() {
 	//long way
 	x := 0
 	for x < 5 {
-		fmt.Println("value of x is:",x)
+		fmt.Println("value of x is:",x)					
 		x++
 	}
 
