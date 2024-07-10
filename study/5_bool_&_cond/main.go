@@ -13,7 +13,7 @@ func main() {
 	if age < 30 {
 		fmt.Println("Age is less than 30")
 	} else if age < 40 {
-		fmt.Println("age is less than 40")
+		fmt.Println("Age is less than 40")
 	} else {
 		fmt.Println("Age is not less than 40")
 	}
@@ -22,7 +22,7 @@ func main() {
 
 	for index, value := range names {
 		if index == 1 {
-			fmt.Println("Continue at pos\n", index)
+			fmt.Println("\nContinue at pos", index , "\n")
 			continue
 		}
 		if index > 3 {
