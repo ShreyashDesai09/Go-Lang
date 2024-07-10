@@ -22,7 +22,7 @@ func main() {
 
 	for index, value := range names {
 		if index == 1 {
-			fmt.Println("\nContinue at pos", index , "\n")
+ 			fmt.Println("\nContinue at pos", index , "\n")
 			continue
 		}
 		if index > 3 {
