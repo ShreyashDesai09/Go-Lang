@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+var v float64
+var k string
+
 type bill struct {
 	name  string
 	items map[string]float64

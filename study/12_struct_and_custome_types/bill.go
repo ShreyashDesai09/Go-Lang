@@ -8,7 +8,7 @@ type bill struct{
 	tip float64
 }
 
-func newBill(name string) bill {
+func newBill(name string ) bill {
 	b := bill{
 		name: name,
 		items: map[string]float64{},
